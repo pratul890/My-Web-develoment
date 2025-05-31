@@ -1,0 +1,27 @@
+h3 {
+    font-size:50px;
+    text-decoration: underline;
+}
+.first{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 40px;
+    border: 10px solid red;
+    text-align: justify;
+    box-shadow: 10px 20px 40px black;
+}
+header{
+   height: 500px;
+   text-align: center;
+    background-image: url('../bcci.jpg');
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+}
+.extra{
+    border: 2px solid red;
+    height: 60px;
+    display:block;
+
+}

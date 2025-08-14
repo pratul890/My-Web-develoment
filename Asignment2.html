@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        
+        label > placeholder{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <h1>Storytelling Contest-----Feedback Form</h1>
+    <p>You have been invited to design a feedback form for a storytelling contest. Please share your story and rate your experience.</p>
+
+    <label for="Story">Your Story:</label><br>
+    <textarea name="Story" id="Story" cols="50" rows="10" placeholder="Write Your Story here....." required></textarea>
+    <br><br>
+
+    <label for="rating">Rate the Contest:</label><br>
+    <select name="rating" id="rating" required>
+        <option value="">--Select--</option>
+        <option value="Good">Good</option>
+        <option value="Excellent">Excellent</option>   
+        <option value="Bad">Bad</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Submit"><br><br>
+    <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
